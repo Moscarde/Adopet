@@ -31,3 +31,11 @@
     color: var(--branco);
     margin-top: 1.3em;
 }
+.principal__ilustracao{
+    display: block;
+    position: relative;
+    margin-top: 1em;
+    margin: 1em auto -1em auto;
+    z-index: -1;
+
+}

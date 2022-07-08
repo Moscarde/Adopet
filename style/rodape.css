@@ -1,8 +1,8 @@
-.rodape{
+.rodape__texto{
     padding:3em 0;
     background: var(--verde);
-    position: absolute;
     bottom: 0;
     width: 100%;
     text-align: center;
+
 }
