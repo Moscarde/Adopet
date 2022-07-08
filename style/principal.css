@@ -1,0 +1,33 @@
+.principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.principal__logo__branco{
+    width: 60%;
+    margin-top: 3em;
+}
+
+.principal__titulo{
+    font-size: 26px;
+    font-weight: 500;
+    margin: 1em 0
+}
+.principal__texto{
+    width: 70%;
+    margin: 0 auto;
+    line-height: 1.6em;
+}
+
+.principal__botao{
+    background: var(--coral);
+    padding: 0.8em 0;
+    width: 190px;
+    border-radius: 6px;
+    font-weight: 600;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
+    text-decoration: none;
+    color: var(--branco);
+    margin-top: 1.3em;
+}

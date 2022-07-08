@@ -1,0 +1,28 @@
+@import url(./style/header.css);
+@import url(./style/principal.css);
+@import url(./style/rodape.css);
+
+:root{
+    --azul:#3772FF;
+    --branco: #FFFFFF;
+    --verde:#36D6AD;
+    --coral:#FC7071;
+    --creme:#FCF0E3;
+    --cinza:#737380;
+    --cinza-claro: #BCBCBC;
+    --cinza-claro-fundo: #F6F6F6;
+    --fonte-padrao:'Poppins', sans-serif;
+}
+
+body{
+    background: var(--azul);
+    position: relative;
+    background-image: url("./img/bg/Forma\ 1.svg"), url("./img/bg/Forma\ 2.svg"), url("./img/bg/Ilustração\ 1.svg");
+    background-repeat: no-repeat;
+    background-position: left top, right center, center 80%;
+    font-family: var(--fonte-padrao);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--branco);
+    height: 100vh;
+}
