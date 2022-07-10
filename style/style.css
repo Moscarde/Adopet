@@ -1,6 +1,6 @@
-@import url(./style/header.css);
-@import url(./style/principal.css);
-@import url(./style/rodape.css);
+@import url(./header.css);
+@import url(./principal.css);
+@import url(./rodape.css);
 
 :root{
     --azul:#3772FF;
@@ -17,7 +17,7 @@
 body{
     background: var(--azul);
     position: relative;
-    background-image: url("./img/bg/Forma\ 1.svg"), url("./img/bg/Forma\ 2.svg");
+    background-image: url("../img/bg/Forma\ 1.svg"), url("../img/bg/Forma\ 2.svg");
     background-repeat: no-repeat;
     background-position: left top, right center;
     font-family: var(--fonte-padrao);

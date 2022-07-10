@@ -1,0 +1,27 @@
+body {
+    background: var(--cinza-claro-fundo);
+    background-image: url("../img/bg/Patas.svg"), url("../img/bg/Forma\ 1.svg"), url("../img/bg/Forma\ 2\ flip.svg");
+    background-repeat: no-repeat;
+    background-position: right top, left top, left 70%;
+
+}
+
+
+.principal__logo__img {
+    width: 40%;
+    margin-top: 2em;
+}
+
+
+.principal__texto {
+    color: var(--azul);
+    margin-top: 0.8em;
+    width: auto;
+}
+
+
+.cadastro-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

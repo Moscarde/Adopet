@@ -3,8 +3,9 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    min-height: 80vh;
 }
-.principal__logo__branco{
+.principal__logo__img{
     width: 60%;
     margin-top: 3em;
 }
@@ -30,12 +31,34 @@
     text-decoration: none;
     color: var(--branco);
     margin-top: 1.3em;
+    font-size: 16px;
+    border-style: none;
 }
 .principal__ilustracao{
     display: block;
     position: relative;
     margin-top: 1em;
-    margin: 1em auto -1em auto;
+    margin: auto auto -1em auto;
     z-index: -1;
 
+}
+
+/* cadastro-login */
+.principal__label {
+    color: var(--cinza);
+    margin-bottom: 0.5em;
+    margin-top: 2em;
+}
+
+.principal__input {
+    width: 80%;
+    padding: 1em;
+    background: #F7F7F7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    border-style: none;
+}
+.principal__input::placeholder {
+    color: var(--cinza-claro);
+    text-align:center;
 }
