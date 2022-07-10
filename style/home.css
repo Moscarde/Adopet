@@ -1,5 +1,5 @@
 body {
-    background: var(--cinza-claro-fundo);
+    background: var(--branco);
     background-image: url("../img/bg/Forma\ 1.svg");
     background-repeat: no-repeat;
     background-position: left top;
@@ -8,11 +8,54 @@ body {
 
 .principal__texto {
     color: var(--azul);
-    margin-top: 0.8em;
-    width: auto;
+    margin-top: 1.5em;
+    width: 60%;
 }
 
 .home{
     width: 100vw;
 }
+.card-pet{
+    background: rgba(00, 0, 0, .03);
+    margin-top: 1em;
+    color: var(--cinza);
+    display: flex;
+    max-width: 600px;
+    padding: 1.5em;
+}
+.card-pet__imagem{
+    width: 148px;
+    height: 148px;
+    margin-right: 1em;
+}
 
+.card-pet__descricao{
+    text-align: left;
+}
+.card-pet__titulo{
+    font-weight: 600;
+    color: var(--azul);
+    margin-bottom: 1em;
+}
+.card-pet__texto{
+    line-height: 1.3em;
+}
+.card-pet__texto-local{
+    font-size: 12px;
+    margin-top: 2em;
+}
+
+.card-pet__contato{
+    display: flex;
+    align-items: center;
+    margin-top:0.3em;
+}
+.card-pet__texto-contato{
+    font-size: 10px;
+}
+.card-pet__ico-msg{
+    width: 18px;
+    height: 18px;
+    margin-right: 0.5em;
+
+}

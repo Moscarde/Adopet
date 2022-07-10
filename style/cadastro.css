@@ -1,5 +1,5 @@
 body {
-    background: var(--cinza-claro-fundo);
+    background: var(--branco);
     background-image: url("../img/bg/Patas.svg"), url("../img/bg/Forma\ 1.svg"), url("../img/bg/Forma\ 2\ flip.svg");
     background-repeat: no-repeat;
     background-position: right top, left top, left 70%;
