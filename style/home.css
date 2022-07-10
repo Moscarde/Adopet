@@ -1,0 +1,18 @@
+body {
+    background: var(--cinza-claro-fundo);
+    background-image: url("../img/bg/Forma\ 1.svg");
+    background-repeat: no-repeat;
+    background-position: left top;
+
+}
+
+.principal__texto {
+    color: var(--azul);
+    margin-top: 0.8em;
+    width: auto;
+}
+
+.home{
+    width: 100vw;
+}
+

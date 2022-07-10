@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adopet - Cadastro</title>
+    <title>Adopet - Login</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,7 +13,7 @@
 
     <link rel="stylesheet" href="../style/reset.css">
     <link rel="stylesheet" href="../style/style.css">
-    <link rel="stylesheet" href="../style/cadastro.css">
+    <link rel="stylesheet" href="../style/login.css">
 </head>
 
 <body>
@@ -29,26 +29,19 @@
         <h1 class="principal__logo">
             <img src="../img/logo/Logos-03.svg" class="principal__logo__img">
         </h1>
-        <section class="cadastro">
+        <section class="login">
             <p class="principal__texto">
-                Ainda não tem cadastro?
-            </p>
-            <p class="principal__texto">
-                Então, antes de buscar seu melhor amigo, precisamos de alguns dados:
+                Já tem conta? Faça seu login:
             </p>
 
-            <form class="cadastro-form">
+            <form class="login-form">
                 <label for="cadastro-form__email" class="principal__label">Email</label>
                 <input type="email" id="cadastro-form__email" class="principal__input" placeholder="Escolha seu melhor email">
-
-                <label for="cadastro-form__nome" class="principal__label">Nome</label>
-                <input type="text" id="cadastro-form__nome" class="principal__input" placeholder="Digite seu nome completo">
 
                 <label for="cadastro-form__senha" class="principal__label">Senha</label>
                 <input type="password" id="cadastro-form__senha" class="principal__input" placeholder="Escolha seu melhor email">
 
-                <label for="cadastro-form__confirma-senha" class="principal__label">Confirma sua senha</label>
-                <input type="password" id="cadastro-form__confirma-senha" class="principal__input" placeholder="Escolha seu melhor email">
+                <a href="#" class="principal__link login__link">Esqueci minha senha.</a>
 
                 <input type="button" id="cadastro-form__botao" value="Cadastrar" class="principal__botao">
             </form>

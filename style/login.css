@@ -12,6 +12,7 @@ body {
 }
 
 
+
 .principal__texto {
     color: var(--azul);
     margin-top: 0.8em;
@@ -19,8 +20,15 @@ body {
 }
 
 
-.cadastro-form {
+.login-form {
+    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+
+.login__link{
+    font-size: 12px;
+    margin-top: 1em;
 }

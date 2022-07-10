@@ -62,3 +62,7 @@
     color: var(--cinza-claro);
     text-align:center;
 }
+
+.principal__link{
+    color: var(--coral);
+}
