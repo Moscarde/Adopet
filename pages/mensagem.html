@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensagem - Adopet</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../style/reset.css">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/Mensagem.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="bloco">
+            <a href="#" class="cabecalho__link">
+                <img src="../img/Casa.svg" alt="Atalho página inicial" class="cabecalho__imagem">
+            </a>
+
+            <a href="#" class="cabecalho__link">
+                <img src="../img/Mensagens.svg" alt="Atalho mensagens" class="cabecalho__imagem">
+            </a>
+        </div>
+
+        <a href="#" class="cabecalho__link link__usuario">
+            <img src="../img/Usuario.svg" alt="Atalho página inicial" class="cabecalho__imagem">
+        </a>
+    </header>
+
+    <main class="principal">
+        <section class="mensagem">
+            <p class="principal__texto">
+                Envie uma mensagem para a pessoa ou instituição que está cuidado do animal:
+            </p>
+
+            <div class="mensagem-form">
+                <label for="mensagem-form__nome" class="mensagem-form__label">Nome</label>
+                <input type="text" id="mensagem-form__nome" class="principal__input" placeholder="Insira seu nome completo" required>
+            
+                <label for="mensagem-form__telefone" class="mensagem-form__label">Telefone</label>
+                <input type="text" id="mensagem-form__telefone" class="principal__input" placeholder="Insira seu telefone e/ou whatsapp" required>
+            
+                <label for="mensagem-form__nome-animal" class="mensagem-form__label">Nome do animal</label>
+                <input type="text" id="mensagem-form__nome-animal" class="principal__input" placeholder="Por qual animal você se interessou?" required>
+            
+                <label for="mensagem-form__mensagem" class="mensagem-form__label">Mensagem</label>
+                <textarea id="mensagem-form__mensagem" class="principal__input" rows="6" placeholder="Escreva sua mensagem."  required></textarea>
+
+                <input type="submit" id="mensagem-form__submit" class="principal__botao" value="Enviar">
+            </div>
+
+            
+
+        </section>
+    </main>
+    <footer class="rodape">
+        <p class="rodape__texto">2022 - Desenvolvido por Alura.</p>
+    </footer>
+</body>
+
+</html>

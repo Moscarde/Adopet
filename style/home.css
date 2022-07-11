@@ -5,7 +5,18 @@ body {
     background-position: left top;
 
 }
+/* Header */
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.link__usuario{
+    margin: 0
+}
 
+
+/* Principal */
 .principal__texto {
     color: var(--azul);
     margin-top: 1.5em;
