@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensagem - Adopet</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../style/reset.css">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/perfil.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="bloco">
+            <a href="#" class="cabecalho__link">
+                <img src="../img/Casa.svg" alt="Atalho página inicial" class="cabecalho__imagem">
+            </a>
+
+            <a href="#" class="cabecalho__link">
+                <img src="../img/Mensagens.svg" alt="Atalho mensagens" class="cabecalho__imagem">
+            </a>
+        </div>
+
+        <a href="#" class="cabecalho__link link__usuario">
+            <img src="../img/Perfil p.svg" alt="Atalho página inicial" class="cabecalho__imagem">
+        </a>
+    </header>
+
+    <main class="principal">
+        <section class="mensagem">
+            <p class="principal__texto">
+                Esse é o perfil que aparece para responsáveis ou ONGs que recebem sua mensagem.
+            </p>
+
+            <div class="perfil-form">
+                <h2 class="perfil-form__titulo">Perfil</h2>
+
+                <label class="perfil-form__label">Foto</label>
+                <div class="foto-perfil">
+                    <img src="../img/Perfil.svg" class="foto-perfil__imagem">
+                    <p class="foto-perfil__texto">Clique na foto para editar</p>
+                </div>
+
+                <label for="perfil-form__nome" class="perfil-form__label">Nome</label>
+                <input type="text" id="perfil-form__nome" class="principal__input" placeholder="Insira seu nome completo" value="Joana Magalhães">
+            
+                <label for="perfil-form__telefone" class="perfil-form__label">Telefone</label>
+                <input type="text" id="perfil-form__telefone" class="principal__input" placeholder="Insira seu telefone e/ou whatsapp" value="55 11 XXXXXXXXX">
+            
+                <label for="perfil-form__cidade" class="perfil-form__label">Cidade</label>
+                <input type="text" id="perfil-form__cidade" class="principal__input" placeholder="Por qual animal você se interessou?" value="São Paulo">
+            
+                <label for="perfil-form__mensagem" class="perfil-form__label">Mensagem</label>
+                <textarea id="perfil-form__mensagem" class="principal__input" rows="6" placeholder="Escreva sua mensagem." ></textarea>
+
+                <input type="submit" id="perfil-form__submit" class="principal__botao" value="Salvar">
+            </div>
+
+            
+
+        </section>
+    </main>
+    <footer class="rodape">
+        <p class="rodape__texto">2022 - Desenvolvido por Alura.</p>
+    </footer>
+</body>
+
+</html>

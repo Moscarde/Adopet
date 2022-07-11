@@ -1,0 +1,78 @@
+body {
+    background: var(--branco);
+    background-image: url("../img/bg/Forma\ 1.svg");
+    background-repeat: no-repeat;
+    background-position: left top;
+
+}
+/* Header */
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.link__usuario{
+    margin: 0
+}
+
+
+/* Principal */
+.principal{
+    min-height: 50vh;
+}
+.principal__texto {
+    color: var(--azul);
+    margin-top: 1.5em;
+    width: 70%;
+}
+
+.principal__input{
+    width: auto;
+}
+.principal__input::placeholder{
+    text-align: left;
+}
+
+.perfil-form{
+    background: rgba(00, 0, 0, .03);
+    margin: 1em;
+    color: var(--cinza);
+    max-width: 600px;
+    padding: 1em 1em 1em 1em;
+    text-align: left;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.perfil-form__titulo {
+    font-size: 21px;
+    color: var(--azul);
+    text-align: center;
+}
+
+.foto-perfil{
+    text-align: center;
+}
+
+.foto-perfil__texto{
+    font-size: 12px;
+    color: var(--coral);
+    margin-top: 0.5em;
+}
+
+.perfil-form__label{
+    color: var(--azul);
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+.principal__botao{
+    margin: 2em auto 1em auto;
+}
+
+#perfil-form__mensagem{
+    font-family: var(--fonte-padrao);
+
+}
