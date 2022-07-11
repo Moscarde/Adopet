@@ -42,3 +42,13 @@ body {
         margin-top: 2.5em;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .principal__input{
+        width: 550px
+    }
+    .input__senha{
+        width: 360px;
+    }
+
+}

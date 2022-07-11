@@ -90,3 +90,16 @@
         width: 344px;
     }
 }
+
+@media screen and (min-width: 768px) {
+    .principal__logo__img{
+        margin: 0;
+    }
+    .principal__titulo{
+        font-size: 28px;
+    }
+    .principal__ilustracao{
+        width: 346px;
+        margin-bottom: -1.5em;
+    }
+}
