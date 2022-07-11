@@ -6,6 +6,15 @@ body {
 
 }
 
+/* btn perfil */
+.link__usuario{
+    display: block;
+}
+.cabecalho{
+    justify-content: space-between;
+}
+
+
 
 /* Principal */
 .principal__texto {

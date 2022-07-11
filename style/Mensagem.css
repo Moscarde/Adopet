@@ -6,6 +6,13 @@ body {
 
 }
 
+/* btn perfil */
+.link__usuario{
+    display: block;
+}
+.cabecalho{
+    justify-content: space-between;
+}
 
 
 /* Principal */
@@ -52,6 +59,8 @@ body {
     
 }
 
+
+
 #mensagem-form__mensagem{
     font-family: var(--fonte-padrao);
 }
@@ -77,7 +86,7 @@ body {
         margin-bottom: .5em;
     }
     .mensagem-form{
-        margin: 0 auto 4em auto;
+        margin: 0 auto 12em auto;
         width: 510px;
     }
     .principal__botao{
@@ -93,4 +102,7 @@ body {
         background-position: left top, right 65%;
     }
 
+    .mensagem-form{
+        margin: 0 auto 6em auto;
+    }
 }
