@@ -1,7 +1,36 @@
 .cabecalho{
     padding: 3em;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.bloco-cabecalho{
+    display: flex;
+    align-items: center;
 }
 .cabecalho__link{
     margin-right: 3.4em;
     text-decoration: none;
+}
+.cabecalho__imagem-logo{
+    display: none;
+}
+
+.link__usuario{
+    margin: 0;
+    display:none;
+}
+
+
+@media screen and (min-width: 768px) {
+    .cabecalho__imagem-logo{
+        display: block;
+        width: 128px;
+        height: 31px;
+        margin-right: 3.4em;
+    }
+    .cabecalho{
+        margin-bottom: 5em;
+    }
+
 }

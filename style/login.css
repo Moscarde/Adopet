@@ -7,8 +7,9 @@ body {
 }
 
 .principal__logo__img {
-    width: 40%;
-    margin-top: 2em;
+    width: 168px;
+    height: auto;
+    margin-top: 3em;
 }
 
 
@@ -31,4 +32,33 @@ body {
 .login__link {
     font-size: 12px;
     margin-top: 1em;
+}
+
+
+@media screen and (min-width: 768px) {
+    body{
+        background-image: url("../img/bg/Patas\ G.svg"), url("../img/bg/Forma\ 1\ G.svg"), url("../img/bg/Forma\ 2\ G.svg");
+        background-position: right top, left top, right 65%;
+    }
+    .principal__logo__img {
+        width: 251px;
+    }
+
+    .principal__texto{
+        font-size: 18px;
+        width: 80%;
+    }
+    .principal__input{
+        width: 344px;
+    }
+    .principal__label{
+        font-size: 18px;
+    }
+    .principal__botao{
+        margin-top: 2.5em;
+        width: 164px;
+    }
+    .login__link{
+        font-size: 14px;
+    }
 }

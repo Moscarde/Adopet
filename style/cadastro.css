@@ -6,11 +6,6 @@ body {
 
 }
 
-.principal__logo__img {
-    width: 40%;
-    margin-top: 2em;
-}
-
 
 .principal__texto {
     color: var(--azul);
@@ -23,4 +18,27 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+    body{
+        background-image: url("../img/bg/Patas\ G.svg"), url("../img/bg/Forma\ 1\ G.svg"), url("../img/bg/Forma\ 2\ G.svg");
+        background-position: right top, left top, right 65%;
+    }
+    .principal__texto{
+        font-size: 18px;
+        width: 80%;
+    }
+    .principal__input{
+        width: 344px;
+    }
+    .cadastro-form{
+        margin-bottom: 6em;
+    }
+    .principal__label{
+        font-size: 18px;
+    }
+    .principal__botao{
+        margin-top: 2.5em;
+    }
 }

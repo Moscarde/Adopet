@@ -26,3 +26,12 @@ body{
     color: var(--branco);
 
 }
+
+
+@media screen and (min-width: 768px) {
+    body{
+        background-image: url("../img/bg/Forma\ 1\ G.svg"), url("../img/bg/Forma\ 2\ G.svg");
+
+    }
+
+}

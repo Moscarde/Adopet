@@ -5,15 +5,6 @@ body {
     background-position: left top;
 
 }
-/* Header */
-.cabecalho{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.link__usuario{
-    margin: 0
-}
 
 
 /* Principal */
@@ -28,6 +19,8 @@ body {
 
 .principal__input{
     width: auto;
+    background: var(--branco);
+    color: var(--cinza);
 }
 .principal__input::placeholder{
     text-align: left;
@@ -74,5 +67,35 @@ body {
 
 #perfil-form__mensagem{
     font-family: var(--fonte-padrao);
+
+}
+@media screen and (min-width: 768px) {
+    body{
+        background-image: url("../img/bg/Forma\ 1\ G.svg");
+        background-position:left top;
+    }
+
+    /* header */
+    .link__usuario{
+        display: block;
+    }
+    .cabecalho{
+        justify-content: space-between;
+    }
+
+    /* principal */
+    .principal__texto{
+        font-size: 18px;
+        width: 80%;
+        margin-bottom: .5em;
+    }
+    .perfil-form{
+        margin: 0 auto 4em auto;
+        width: 510px;
+    }
+    .principal__botao{
+        width: 164px;
+    }
+
 
 }
