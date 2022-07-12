@@ -1,7 +1,10 @@
 <h1 align="center">
-  <p align="center">Adopets</p>
+  <p align="center">Adopets -  Alura Challenges Front-End</p>
   <a href="https://adopet-beryl.vercel.app/"><img src="https://i.imgur.com/yoWxPwX.jpg"></a>
 </h1>
+
+## 🎯 Alura Challenges Front-End
+<p>Essa edição do Challenge Front-End, desafia os estudantes a desenvolver a versão das telas do usuário adotante para o site da AdoPet, que contará com página de login, cadastro, lista de pets e formulário de mensagem.</p>
 
 ### Status do Projeto:  (07/22)
 
