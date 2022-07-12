@@ -5,8 +5,8 @@
 
 ### Status do Projeto:  (07/22)
 
-`` Week 01 - :heavy_check_mark:``
-`` Week 02 - :heavy_check_mark:``
+`` Week 01 - ✔️``
+`` Week 02 - ✔️``
 `` Week 03 - ...``
 `` Week 04 - ...``
 
@@ -40,7 +40,7 @@
 
 - `Index`
 
-<img src="https://i.imgur.com/Jz48bFq.png" alt="mobile" height=300/>
+<img src="https://i.imgur.com/ZUxBOtH.png" alt="mobile" height=300/>
 <img src="https://i.imgur.com/OIJto0z.png" alt="mobile" height=300/>
 <img src="https://i.imgur.com/zvJT2ZP.png" alt="mobile" height=300/> 
 <img src="https://i.imgur.com/cjeerlq.png" alt="mobile" height=300/>
