@@ -2,13 +2,15 @@
   <p align="center">Adopets</p>
   <a href="https://adopet-beryl.vercel.app/"><img src="https://i.imgur.com/yoWxPwX.jpg"></a>
 </h1>
+
 ### Status do Projeto:  (07/22)
 
-> Week 01 - :heavy_check_mark:
-> Week 02 - :heavy_check_mark:
+`` Week 01 - :heavy_check_mark:``
+`` Week 02 - :heavy_check_mark:``
+`` Week 03 - ...``
+`` Week 04 - ...``
 
 ## :bookmark_tabs: Descrição e historia do projeto!
-
 
 <p>A empresa AdoPet têm como objetivo fazer o intermédio entre adotantes de animais e ONGs que possuem foco de retirar animais da rua. Visando isso, ela precisa trazer mais usuários e aumentar a interação entre possíveis adotantes e representantes dessas ONGs e para isso, deseja implementar uma plataforma e levar a empresa pro mundo digital.</p>
 
@@ -22,20 +24,25 @@
 - Permitir a edição do perfil, onde também será possível incluir foto do usuário.
 
 
-## :blue_book: Temas trabalhados no estudo
-
+## :blue_book: Temas trabalhados no projeto
+#### Week 01
 - ``Construção do site com apenas HTML e CSS``
 - ``Interpretação de um protótipo de site criado no Figma``
 - ``Abordagem Mobile-First``
+
+#### Week 02
 - ``Uso de Media Queries para construir layouts responsivos``
+
+#### Week 03 e 04
 - ``...``
 
 ## :hammer: Previews do projeto
 
 - `Index`
 
-<img src="https://i.imgur.com/zvJT2ZP.png" alt="mobile" height=300/><img src="https://i.imgur.com/Jz48bFq.png" alt="mobile" height=300/>
-<img src="https://i.imgur.com/cjeerlq.png" alt="mobile" height=300/>
+<img src="https://i.imgur.com/Jz48bFq.png" alt="mobile" height=300/>
 <img src="https://i.imgur.com/OIJto0z.png" alt="mobile" height=300/>
+<img src="https://i.imgur.com/zvJT2ZP.png" alt="mobile" height=300/> 
+<img src="https://i.imgur.com/cjeerlq.png" alt="mobile" height=300/>
 
 <p align="center">:construction: Projeto em construção :construction:</p> 
