@@ -1,23 +1,26 @@
 <h1 align="center">
-  <p align="center">AluraBooks</p>
+  <p align="center">Adopets</p>
   <a href="https://adopet-beryl.vercel.app/"><img src="https://i.imgur.com/yoWxPwX.jpg"></a>
 </h1>
-> Status do Projeto:  (07/22)
+### Status do Projeto:  (07/22)
+
 > Week 01 - :heavy_check_mark:
 > Week 02 - :heavy_check_mark:
 
+## :bookmark_tabs: Descrição e historia do projeto!
 
 
+<p>A empresa AdoPet têm como objetivo fazer o intermédio entre adotantes de animais e ONGs que possuem foco de retirar animais da rua. Visando isso, ela precisa trazer mais usuários e aumentar a interação entre possíveis adotantes e representantes dessas ONGs e para isso, deseja implementar uma plataforma e levar a empresa pro mundo digital.</p>
 
-<!-- 
-## :bookmark_tabs: Descrição do projeto!
+<p>Para isso eles estão solicitando a nossa ajuda como desenvolvedores para criar o site e o ele deve conter os seguintes requisitos:</p>
 
+- Uma página inicial que será de login, contendo os botões de "já tenho conta" e "quero me cadastrar".
+- Uma página de cadastro que terá um formulário solicitando as informações: nome, e-mail e senha.
+- Uma página de login com um formulário de e-mail e senha.
+- Uma página que deve aparecer após o login com uma lista de cachorros e gatos. Cada animal deve mostrar foto, nome, idade, porte, características e região. Para cada animal haverá um botão de contato.
+- Uma página de edição de envio de mensagem, com um formulário com campos de nome, telefone, nome do animal e mensagem.
+- Permitir a edição do perfil, onde também será possível incluir foto do usuário.
 
-<p> Projeto desenvolvido durante o curso "HTML e CSS: responsividade com mobile-first" na plataforma Alura</p>
-
-## :dash: Deploy da Aplicação 
-
-<a href="https://alura-books-opal.vercel.app" target="_blank">Link para visualizar no navegador</a></p>
 
 ## :blue_book: Temas trabalhados no estudo
 
@@ -25,22 +28,14 @@
 - ``Interpretação de um protótipo de site criado no Figma``
 - ``Abordagem Mobile-First``
 - ``Uso de Media Queries para construir layouts responsivos``
+- ``...``
 
 ## :hammer: Previews do projeto
 
-- `Mobile First`
+- `Index`
 
-<img src="https://user-images.githubusercontent.com/78855746/177910749-17b41b48-5353-453a-ab01-e363f68d9f5a.gif" alt="mobile" height=400/>
+<img src="https://i.imgur.com/zvJT2ZP.png" alt="mobile" height=300/><img src="https://i.imgur.com/Jz48bFq.png" alt="mobile" height=300/>
+<img src="https://i.imgur.com/cjeerlq.png" alt="mobile" height=300/>
+<img src="https://i.imgur.com/OIJto0z.png" alt="mobile" height=300/>
 
-
-- `Mínimo de 1024px`
-
- <img src="https://user-images.githubusercontent.com/78855746/177910802-ca28bf1b-c57c-4797-b244-54354f8ea73a.gif" alt="mobile" height=400/>
-
-
-- `Mínimo de 1728px`
-
- <img src="https://user-images.githubusercontent.com/78855746/177911381-ce09a097-1c75-4545-a99e-411f8e9b9cd7.gif" alt="mobile" height=400/>
- 
- 
-<p align="center">:construction: Projeto finalizado :construction:</p> -->
+<p align="center">:construction: Projeto em construção :construction:</p> 
