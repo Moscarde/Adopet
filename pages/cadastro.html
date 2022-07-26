@@ -31,7 +31,7 @@
         <div class="bloco-cabecalho">
             <img src="../img/logo/Logos-02.svg" alt="Atalho página inicial" class="cabecalho__imagem-logo">
 
-            <a href="#" class="cabecalho__link">
+            <a href="../index.html" class="cabecalho__link">
                 <img src="../img/Casa.svg" alt="Atalho página inicial" class="cabecalho__imagem">
             </a>
 
@@ -57,20 +57,22 @@
                 Então, antes de buscar seu melhor amigo, precisamos de alguns dados:
             </p>
 
-            <form class="cadastro-form">
-                <label for="cadastro-form__email" class="principal__label">Email</label>
-                <input type="email" id="cadastro-form__email" class="principal__input" placeholder="Escolha seu melhor email">
-
-                <label for="cadastro-form__nome" class="principal__label">Nome</label>
-                <input type="text" id="cadastro-form__nome" class="principal__input" placeholder="Digite seu nome completo">
-
-                <label for="cadastro-form__senha" class="principal__label">Senha</label>
-                <input type="password" id="cadastro-form__senha" class="principal__input input__senha" placeholder="Crie uma senha">
-
-                <label for="cadastro-form__confirma-senha" class="principal__label">Confirma sua senha</label>
-                <input type="password" id="cadastro-form__confirma-senha" class="principal__input input__senha" placeholder="Repita a senha criada">
-
-                <input type="button" id="cadastro-form__botao" value="Cadastrar" class="principal__botao">
+            <form>
+                <fieldset class="cadastro-form">
+                    <label for="cadastro-form__email" class="principal__label">Email</label>
+                    <input type="email" id="cadastro-form__email" class="principal__input" placeholder="Escolha seu melhor email" required>
+                    
+                    <label for="cadastro-form__nome" class="principal__label">Nome</label>
+                    <input type="text" id="cadastro-form__nome" class="principal__input" placeholder="Digite seu nome completo" required>
+                    
+                    <label for="cadastro-form__senha" class="principal__label">Senha</label>
+                    <input type="password" id="cadastro-form__senha" class="principal__input input__senha" placeholder="Crie uma senha" required>
+                    
+                    <label for="cadastro-form__confirma-senha" class="principal__label">Confirma sua senha</label>
+                    <input type="password" id="cadastro-form__confirma-senha" class="principal__input input__senha" placeholder="Repita a senha criada" required>
+                </fieldset>
+                
+                <button id="cadastro-form__botao" class="principal__botao">Cadastrar</button>
             </form>
 
 
