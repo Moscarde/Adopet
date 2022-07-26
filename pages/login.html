@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="../style/reset.css">
     <link rel="stylesheet" href="../style/style.css">
     <link rel="stylesheet" href="../style/login.css">
-        
+
 
     <!-- favico -->
     <link rel="apple-touch-icon" sizes="76x76" href="../img/favico/apple-touch-icon.png">
@@ -54,24 +54,34 @@
                 Já tem conta? Faça seu login:
             </p>
 
-            <form class="login-form">
-                <label for="cadastro-form__email" class="principal__label">Email</label>
-                <input type="email" id="cadastro-form__email" class="principal__input" placeholder="Escolha seu melhor email">
+            <form>
+                <fieldset class="login-form">
+                    <label for="cadastro-form__email" class="principal__label">Email</label>
+                    <input type="email" id="cadastro-form__email" class="principal__input"
+                        placeholder="Insira seu email" data-tipo="email" required>
+                    <span class="cadastro-form__input-erro">&#10240</span>
 
-                <label for="cadastro-form__senha" class="principal__label">Senha</label>
-                <input type="password" id="cadastro-form__senha" class="principal__input input__senha" placeholder="Escolha seu melhor email">
 
-                <a href="#" class="principal__link login__link">Esqueci minha senha.</a>
+                    <label for="cadastro-form__senha" class="principal__label">Senha</label>
+                    <input type="password" id="cadastro-form__senha" class="principal__input input__senha"
+                        placeholder="Digite sua senha" data-tipo="senhaLogin" required>
+                    <span class="cadastro-form__input-erro">&#10240</span>
 
-                <input type="button" id="cadastro-form__botao" value="Entrar" class="principal__botao">
+
+                    <a href="#" class="principal__link login__link">Esqueci minha senha.</a>
+
+                </fieldset>
+                <button id="cadastro-form__botao" class="principal__botao">Entrar</button>
             </form>
 
 
-        </section>       
+        </section>
     </main>
     <footer class="rodape">
         <p class="rodape__texto">2022 - Desenvolvido por Alura.</p>
     </footer>
+    <script src="../js/app.js" type="module"></script>
+
 </body>
 
 </html>

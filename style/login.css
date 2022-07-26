@@ -35,6 +35,18 @@ body {
 }
 
 
+/* Validaçao */
+.cadastro-form__input-erro{
+    color: var(--coral);
+    margin-top: 0.5em;
+    font-size: 14px;
+}
+
+.cadastro-form__input-invalido{
+    background: #fdbebe;
+}
+
+
 @media screen and (min-width: 768px) {
     body{
         background-image: url("../img/bg/Patas\ G.svg"), url("../img/bg/Forma\ 1\ G.svg"), url("../img/bg/Forma\ 2\ G.svg");

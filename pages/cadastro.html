@@ -60,16 +60,21 @@
             <form>
                 <fieldset class="cadastro-form">
                     <label for="cadastro-form__email" class="principal__label">Email</label>
-                    <input type="email" id="cadastro-form__email" class="principal__input" placeholder="Escolha seu melhor email" required>
+                    <input type="email" id="cadastro-form__email" class="principal__input" placeholder="Escolha seu melhor email" data-tipo="email" required>
+                    <span class="cadastro-form__input-erro"></span>
                     
                     <label for="cadastro-form__nome" class="principal__label">Nome</label>
-                    <input type="text" id="cadastro-form__nome" class="principal__input" placeholder="Digite seu nome completo" required>
+                    <input type="text" id="cadastro-form__nome" class="principal__input" placeholder="Digite seu nome completo" data-tipo="nome" required>
+                    <span class="cadastro-form__input-erro"></span>
                     
                     <label for="cadastro-form__senha" class="principal__label">Senha</label>
-                    <input type="password" id="cadastro-form__senha" class="principal__input input__senha" placeholder="Crie uma senha" required>
+                    <input type="password" id="cadastro-form__senha" class="principal__input input__senha" placeholder="Crie uma senha" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$" data-tipo="senha" required>
+                    <span class="cadastro-form__input-erro"></span>
                     
                     <label for="cadastro-form__confirma-senha" class="principal__label">Confirma sua senha</label>
-                    <input type="password" id="cadastro-form__confirma-senha" class="principal__input input__senha" placeholder="Repita a senha criada" required>
+                    <input type="password" id="cadastro-form__confirma-senha" class="principal__input input__senha" placeholder="Repita a senha criada" data-tipo="senhaRepetida" required>
+                    <span class="cadastro-form__input-erro"></span>
+
                 </fieldset>
                 
                 <button id="cadastro-form__botao" class="principal__botao">Cadastrar</button>
@@ -81,6 +86,8 @@
     <footer class="rodape">
         <p class="rodape__texto">2022 - Desenvolvido por Alura.</p>
     </footer>
+
+    <script src="../js/app.js" type="module"></script>
 </body>
 
 </html>

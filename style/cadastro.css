@@ -6,6 +6,9 @@ body {
 
 }
 
+.cadastro{
+    min-height: 80vh;
+}
 
 .principal__texto {
     color: var(--azul);
@@ -13,6 +16,15 @@ body {
     width: auto;
 }
 
+.cadastro-form__input-erro{
+    color: var(--coral);
+    margin-top: 0.5em;
+    font-size: 14px;
+}
+
+.cadastro-form__input-invalido{
+    background: #fdbebe;
+}
 
 .cadastro-form {
     display: flex;
