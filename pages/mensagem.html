@@ -29,24 +29,27 @@
 <body>
     <header class="cabecalho">
         <div class="bloco-cabecalho">
-            <img src="../img/logo/Logos-02.svg" alt="Atalho página inicial" class="cabecalho__imagem-logo">
-
-            <a href="#" class="cabecalho__link">
-                <img src="../img/Casa.svg" alt="Atalho página inicial" class="cabecalho__imagem">
+            <a href="#" class="cabecalho__link" data-link="index">
+                <img src="../img/logo/Logos-02.svg" alt="Atalho página inicial" class="cabecalho__imagem-logo" data-link="index">
             </a>
 
-            <a href="#" class="cabecalho__link">
-                <img src="../img/Mensagens.svg" alt="Atalho mensagens" class="cabecalho__imagem">
+            <a href="#" class="cabecalho__link" data-link="home">
+                <img src="../img/Casa.svg" alt="Atalho página inicial" class="cabecalho__imagem" data-link="home">
+            </a>
+
+            <a href="#" class="cabecalho__link" data-link="mensagem">
+                <img src="../img/Mensagens.svg" alt="Atalho mensagens" class="cabecalho__imagem" data-link="mensagem">
             </a>
         </div>
 
-        <a href="#" class="cabecalho__link link__usuario">
-            <img src="../img/Usuario.svg" alt="Atalho página inicial" class="cabecalho__imagem-perfil">
+        <a href="#" class="cabecalho__link link__usuario" data-link="usuario">
+            <img src="../img/Usuario.svg" alt="Atalho página inicial" class="cabecalho__imagem-perfil"
+                data-link="usuario">
         </a>
 
     </header>
 
-    <main class="principal">
+    <main class="principal" data-page="cadastro">
         <section class="mensagem">
             <p class="principal__texto">
                 Envie uma mensagem para a pessoa ou instituição que está cuidado do animal:

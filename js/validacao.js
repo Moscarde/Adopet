@@ -1,5 +1,9 @@
 export function valida(input) {
     const tipoDeInput = input.dataset.tipo
+    if (document.querySelector(".principal").dataset.page != "cadastro" &&
+    document.querySelector(".principal").dataset.page != "login") {
+        return
+    }
 
     if (validadores[tipoDeInput]) {
         validadores[tipoDeInput](input)

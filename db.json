@@ -1,0 +1,32 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Gabriel Moscarde",
+      "email": "gabrielmoscarde@outlook.com",
+      "telefone": "5521999998888",
+      "cidade": "Rio de Janeiro",
+      "sobre": "Olá, eu sou o Gabriel Moscarde!",
+      "foto_perfil": "https://github.com/moscarde.png",
+      "senha": "Password123",
+      "login_time": ""
+    },
+    {
+      "id": 2,
+      "nome": "Joana Magalhães",
+      "email": "joanamagalhaes@email.com",
+      "telefone": "5521123451234",
+      "cidade": "São Paulo",
+      "sobre": "",
+      "foto_perfil": "../img/Perfil.svg",
+      "senha": "Password123",
+      "login_time": ""
+    },
+    {
+      "nome": "Novo Usuário",
+      "email": "email.novo@email.com",
+      "senha": "NovaSenha123",
+      "id": 3
+    }
+  ]
+}
