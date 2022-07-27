@@ -37,6 +37,9 @@ const mensagensDeErro = {
         valueMissing: 'O campo confirma senha não pode estar vazio',
         patternMismatch: 'A senha deve conter entre 6 a 12 caracteres, deve conter pelo menos uma letra maiúscula, um número e não deve conter símbolos.',
         customError: 'Senha inserida não corresponde a senha digitada anteriormente.'
+    },
+    senhaLogin: {
+        valueMissing: 'O campo confirma senha não pode estar vazio'
     }
 }
 
