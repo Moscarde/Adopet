@@ -26,6 +26,9 @@ body{
     color: var(--branco);
 
 }
+button:hover{
+    cursor: pointer;
+}
 
 
 @media screen and (min-width: 768px) {
