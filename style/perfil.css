@@ -55,6 +55,10 @@ body {
 .foto-perfil{
     text-align: center;
 }
+.foto-perfil__imagem{
+    height: 80px;
+    border-radius: 50%;
+}
 
 .foto-perfil__texto{
     font-size: 12px;

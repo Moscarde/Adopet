@@ -15,6 +15,10 @@
 .cabecalho__imagem-logo{
     display: none;
 }
+.cabecalho__imagem-perfil{
+    height: 40px;
+    border-radius: 50%;
+}
 
 .link__usuario{
     margin: 0;
