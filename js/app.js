@@ -2,6 +2,7 @@ import { valida } from './validacao.js'
 import { checkLogin } from './dbInteractions.js'
 import { validaLink } from './links.js'
 import { login } from './login.js'
+import { showCards } from './home.js'
 
 
 const inputs = document.querySelectorAll('input')
@@ -26,7 +27,10 @@ inputs.forEach(input => {
 //btns forms
 if (paginaAtual == "login") {
     form.addEventListener('submit', login)
-    
+}
+
+if (paginaAtual == "home") {
+    showCards()
 }
 
 
