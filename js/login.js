@@ -8,6 +8,7 @@ export function login() {
 
 function procuraEmail(email, senha) {
     const url = `http://localhost:3000/usuarios/?email=${email}`
+    console.log(url);
     fetch(url)
         .then((resp) => resp.json())
         .then(dados => confere(dados[0], senha))
@@ -23,7 +24,7 @@ function confere(dados, senha) {
     }
     else {
         if (dados.senha == senha) {
-            alert('logado')
+            alert(`Bem vindo ${dados.nome}`)
             window.location.href = `home.html?login=true&userID=${dados.id}`
         }
         else {

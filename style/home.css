@@ -35,6 +35,11 @@ body {
     max-width: 600px;
     padding: 1.5em;
 }
+.card-pet:hover{
+    background: rgba(00, 0, 0, .07);
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+}
 
 .card-pet__imagem {
     width: 148px;

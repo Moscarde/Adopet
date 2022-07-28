@@ -62,7 +62,7 @@ function validaSenhaRepetida(input) {
 
     let mensagem = ""
     if (input.value !== senha) {
-        mensagem = "xxxxx"
+        mensagem = "Senhas precisam ser iguais"
     }
 
     input.setCustomValidity(mensagem)

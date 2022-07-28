@@ -9,7 +9,10 @@ export function validaLink(evento) {
 
 const queryString = window.location.search
 const parametros = new URLSearchParams(queryString);
-
+// console.log(parametros)
+// console.log(parametros.delete('petID'))
+// console.log(...parametros)
+parametros.delete('petID')
 
 const tiposDeLinks = {
     index: (paginaAtual) => {

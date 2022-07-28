@@ -59,6 +59,9 @@ body {
     height: 80px;
     border-radius: 50%;
 }
+.foto-perfil__imagem:hover{
+    cursor: pointer;
+}
 
 .foto-perfil__texto{
     font-size: 12px;

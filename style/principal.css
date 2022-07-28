@@ -72,6 +72,10 @@
     color: var(--coral);
 }
 
+.center{
+    text-align: center;
+}
+
 @media screen and (min-width: 768px) {
     .principal__logo__img {
         width: 251px;

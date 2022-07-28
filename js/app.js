@@ -1,8 +1,9 @@
 import { valida } from './validacao.js'
-import { checkLogin } from './dbInteractions.js'
+import { showPerfil, salvaMudancasPerfil } from './perfil.js'
 import { validaLink } from './links.js'
 import { login } from './login.js'
 import { showCards } from './home.js'
+import { showPetName } from './mensagem.js'
 
 
 const inputs = document.querySelectorAll('input')
@@ -18,11 +19,13 @@ linksHeader.forEach(link => {
 })
 
 //inputs cadastro
-inputs.forEach(input => {
-    input.addEventListener('blur', (evento) => {
-        valida(evento.target)
+if (paginaAtual == "cadastro") {
+    inputs.forEach(input => {
+        input.addEventListener('blur', (evento) => {
+            valida(evento.target)
+        })
     })
-})
+}
 
 //btns forms
 if (paginaAtual == "login") {
@@ -34,5 +37,17 @@ if (paginaAtual == "home") {
 }
 
 
+if (paginaAtual !== "index") {
+    showPerfil()
+}
 
-checkLogin()
+// if (paginaAtual == "perfil") {
+//     salvaMudancasPerfil()
+// }
+
+if (paginaAtual == "mensagem") {
+    showPetName()
+}
+if (paginaAtual == "cadastro") {
+    cadastro()
+}
