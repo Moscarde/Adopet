@@ -16,10 +16,13 @@ function logado(id) {
         .then((resp) => resp.json())
         .then(dados => {
             exibeDadosPerfil(dados)
-            if (document.querySelector(".principal").dataset.page == "perfil") {
-                salvaMudancasPerfil()
-                
+            if (document.querySelector(".principal").dataset.page !== "perfil") {
+                console.log('não é pagina de perfil')
+                return
             }
+            console.log('é pagina de perfil')
+
+            salvaMudancasPerfil()
         })
         .catch(function (error) {
             console.log(error);
