@@ -16,7 +16,10 @@ function logado(id) {
         .then((resp) => resp.json())
         .then(dados => {
             exibeDadosPerfil(dados)
-            salvaMudancasPerfil()
+            if (document.querySelector(".principal").dataset.page == "perfil") {
+                salvaMudancasPerfil()
+                
+            }
         })
         .catch(function (error) {
             console.log(error);
@@ -50,7 +53,7 @@ export function salvaMudancasPerfil() {
     const btnSalvar = document.querySelector("#perfil-form__submit")
 
     btnSalvar.addEventListener('click', () => {
-        const perfilImagem = imgPerfilSrc
+        const perfilImagem = getImgPerfil()
         const nome = document.querySelector("#perfil-form__nome").value
         const telefone = document.querySelector("#perfil-form__telefone").value
         const cidade = document.querySelector("#perfil-form__cidade").value
@@ -85,10 +88,14 @@ export function salvaMudancasPerfil() {
 
     })
 }
+var imgPerfilSrc = getImgPerfil()
+
+function getImgPerfil() {
+    return document.querySelector(".foto-perfil__imagem").src
+}
 
 if (document.querySelector(".principal").dataset.page == "perfil") {
     const imgPerfil = document.querySelector(".foto-perfil__imagem")
-    var imgPerfilSrc = ""
     imgPerfil.addEventListener("click", () => {
         imgPerfilSrc = prompt("Digite a url da nova imagem de perfil")
         if (imgPerfilSrc !== null) {

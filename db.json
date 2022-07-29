@@ -2,12 +2,12 @@
   "usuarios": [
     {
       "id": 1,
-      "nome": "Gabriel Moscarde",
+      "nome": "Gabriel Moscarde 121",
       "email": "gabrielmoscarde@outlook.com",
       "telefone": "5521999998888",
       "cidade": "Rio de Janeiro",
       "sobre": "Olá, eu sou o Gabriel Moscarde!",
-      "foto_perfil": "https://github.com/moscarde.png",
+      "foto_perfil": "https://github.com/Moscarde.png",
       "senha": "Password123",
       "login_time": ""
     },
@@ -65,9 +65,9 @@
       "nome": "Alura",
       "email": "alura@email.com",
       "senha": "Senha123",
-      "telefone": "21992897471",
-      "cidade": "Rj",
-      "sobre": "Alura cursos de tecnologia",
+      "telefone": "",
+      "cidade": "",
+      "sobre": "",
       "foto_perfil": "",
       "login_time": "",
       "id": 7
