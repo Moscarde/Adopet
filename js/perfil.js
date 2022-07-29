@@ -86,13 +86,13 @@ export function salvaMudancasPerfil() {
 
     })
 }
-var imgPerfilSrc = getImgPerfil()
 
+var imgPerfilSrc = ""
 function getImgPerfil() {
     return document.querySelector(".foto-perfil__imagem").src
 }
 
-if (document.querySelector(".principal").dataset.page == "perfil") {
+if (pagina == "perfil") {
     const imgPerfil = document.querySelector(".foto-perfil__imagem")
     imgPerfil.addEventListener("click", () => {
         imgPerfilSrc = prompt("Digite a url da nova imagem de perfil")
