@@ -1,18 +1,15 @@
+import { parametros } from './pegaParametros.mjs'
+
 export function validaLink(evento) {
     const tipo = evento.dataset.link
     const paginaAtual = document.querySelector(".principal").dataset.page
+    parametros.delete('petID')
     console.log(tipo);
     if (tiposDeLinks[tipo]) {
         tiposDeLinks[tipo](paginaAtual)
     }
 }
 
-const queryString = window.location.search
-const parametros = new URLSearchParams(queryString);
-// console.log(parametros)
-// console.log(parametros.delete('petID'))
-// console.log(...parametros)
-parametros.delete('petID')
 
 const tiposDeLinks = {
     index: (paginaAtual) => {

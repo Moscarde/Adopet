@@ -1,9 +1,11 @@
-export function showPetName() {
-    console.log('k')
-    const queryString = window.location.search;
-    const parametros = new URLSearchParams(queryString);
+import { host } from './host.mjs'
+import { parametros } from './pegaParametros.mjs'
 
+export function showPetName() {
+    console.log(parametros.has('petID'))
+    console.log(parametros.has('userID'))
     if (parametros.has('petID')) {
+        console.log('tem');
         preenchePet(parametros.get('petID'))
     }
     if (parametros.get('login') == 'true') {
@@ -13,29 +15,49 @@ export function showPetName() {
 }
 
 function preenchePet(petID) {
-    const url = `http://localhost:3000/pets/${petID}` 
-    const inputNome = document.getElementById('mensagem-form__nome-animal')
+    console.log('tentando preencher pet')
+    const inputNomeAnimal = document.getElementById('mensagem-form__nome-animal')
+    const url = `${host}/pets/`
 
     fetch(url)
         .then((resp) => resp.json())
-        .then(dados => inputNome.value = dados.nome)
+        .then(dados => {
+            let pet = dados.find(pet => pet.id == petID)
+            inputNomeAnimal.value = pet.nome
+        })
         .catch(function (error) {
             console.log(error);
         });
 }
 
 function preencheUsuario(userID) {
-    const url = `http://localhost:3000/usuarios/${userID}` 
     const inputNome = document.getElementById('mensagem-form__nome')
     const inputTelefone = document.getElementById('mensagem-form__telefone')
 
-    fetch(url)
-        .then((resp) => resp.json())
-        .then(dados => {
-            inputNome.value = dados.nome
-            inputTelefone.value = dados.telefone
-        })
+
+
+    let credenciais = {
+        "id": `${userID}`
+    }
+
+    var options = {
+        method: 'POST',
+        body: JSON.stringify(credenciais),
+        mode: 'cors',
+        headers: { "Content-type": "application/json; charset=UTF-8" }
+    }
+
+    const url = `${host}/usuarioDados/`
+    fetch(url, options)
+        .then((res) => res.json())
+        .then(resposta => {
+            inputNome.value = resposta.nome
+            inputTelefone.value = resposta.telefone
+        }) //dadosUsuario
         .catch(function (error) {
             console.log(error);
         });
+
+
+
 }

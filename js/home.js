@@ -1,5 +1,7 @@
+import { host } from './host.mjs'
+
 export function showCards() {
-    const url = `http://localhost:3000/pets/`
+    const url = `${host}/pets/`
     fetch(url)
         .then((resp) => resp.json())
         .then(dados => {

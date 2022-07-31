@@ -1,9 +1,12 @@
 import { valida } from './validacao.js'
-import { showPerfil, salvaMudancasPerfil } from './perfil.js'
+import { showPerfil, btnsPerfil } from './perfil.js'
 import { validaLink } from './links.js'
 import { login } from './login.js'
 import { showCards } from './home.js'
 import { showPetName } from './mensagem.js'
+import { cadastro } from './cadastro.js'
+
+import { host } from './host.mjs'
 
 
 const inputs = document.querySelectorAll('input')
@@ -37,13 +40,13 @@ if (paginaAtual == "home") {
 }
 
 
-if (paginaAtual !== "index") {
+if (paginaAtual !== "index" && paginaAtual !== "cadastro" && paginaAtual !== "login" ) {
     showPerfil()
 }
 
-// if (paginaAtual == "perfil") {
-//     salvaMudancasPerfil()
-// }
+if (paginaAtual == "perfil") {
+    btnsPerfil()
+}
 
 if (paginaAtual == "mensagem") {
     showPetName()
