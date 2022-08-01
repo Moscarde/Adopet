@@ -21,6 +21,23 @@ linksHeader.forEach(link => {
     })
 })
 
+
+//btns forms
+if (paginaAtual == "login") {
+    console.log('LOGIN: email@padrao.com SENHA: Password123')
+    form.addEventListener('submit', evento => login(evento))
+}
+
+
+//pages
+if (paginaAtual == "index") {
+    console.log('Feito com muita dedicação por Gabriel Moscarde')
+    console.log('Repositório do projeto: https://github.com/Moscarde/Adopet')
+}
+if (paginaAtual == "home") {
+    showCards()
+}
+
 //inputs cadastro
 if (paginaAtual == "cadastro") {
     inputs.forEach(input => {
@@ -30,17 +47,7 @@ if (paginaAtual == "cadastro") {
     })
 }
 
-//btns forms
-if (paginaAtual == "login") {
-    form.addEventListener('submit', evento => login(evento))
-}
-
-if (paginaAtual == "home") {
-    showCards()
-}
-
-
-if (paginaAtual !== "index" && paginaAtual !== "cadastro" && paginaAtual !== "login" ) {
+if (paginaAtual !== "index" && paginaAtual !== "cadastro" && paginaAtual !== "login") {
     showPerfil()
 }
 
@@ -54,3 +61,4 @@ if (paginaAtual == "mensagem") {
 if (paginaAtual == "cadastro") {
     cadastro()
 }
+
