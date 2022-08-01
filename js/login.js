@@ -1,6 +1,7 @@
 import { host } from './host.mjs'
 
-export function login() {
+export function login(evento) {
+    evento.preventDefault();
     const email = document.querySelector("#cadastro-form__email").value
     const senha = document.querySelector("#cadastro-form__senha").value
     tentaLogin(email, senha)

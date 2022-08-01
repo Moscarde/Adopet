@@ -32,7 +32,7 @@ if (paginaAtual == "cadastro") {
 
 //btns forms
 if (paginaAtual == "login") {
-    form.addEventListener('submit', login)
+    form.addEventListener('submit', evento => login(evento))
 }
 
 if (paginaAtual == "home") {

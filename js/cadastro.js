@@ -2,10 +2,12 @@ import { host } from './host.mjs'
 
 export function cadastro() {
     const btnCadastrar = document.querySelector("form")
-    btnCadastrar.addEventListener("submit", cadastrarDB)
+    btnCadastrar.addEventListener("submit", evento => cadastrarDB(evento))
 }
 
-function cadastrarDB() {
+function cadastrarDB(evento) {
+    evento.preventDefault();
+    console.log("click")
     const email = document.querySelector("#cadastro-form__email").value
     const nome = document.querySelector("#cadastro-form__nome").value
     const senha = document.querySelector("#cadastro-form__senha").value
@@ -33,9 +35,12 @@ function cadastrarDB() {
     }
 
     fetch(url, options)
-        .then(function () {
+    .then((res) => res.json())
+        .then(resposta => {
+            console.log(resposta)
             alert('Cadastrado com sucesso!')
             alert('Faça o Login')
+            window.location.href = `login.html`
             // Handle response we get from the API
         })
         .catch(function (error) {
