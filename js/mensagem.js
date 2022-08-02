@@ -56,6 +56,10 @@ function preencheUsuario(userID) {
 }
 
 export function btnEnviarMensagem(evento) {
+    evento.preventDefault();
     alert('Mensagem enviada com sucesso!')
+    
+    parametros.delete('petID')
+    window.location.href = `home.html?${parametros}`
     //ou não né '-'
 }
