@@ -6,7 +6,7 @@
 ## 🎯 Alura Challenges Front-End
 <p>Essa edição do Challenge Front-End, desafia os estudantes a desenvolver a versão das telas do usuário adotante para o site da AdoPet, que contará com página de login, cadastro, lista de pets e formulário de mensagem.</p>
 
-### Status do Projeto:  (07/22)
+### Status do Projeto
 
 `` Week 01 - ✔️``
 `` Week 02 - ✔️``
