@@ -47,11 +47,17 @@
 
 ## :hammer: Previews do projeto
 
-- `Index`
+- `Mobile`
 
 <img src="https://i.imgur.com/ZUxBOtH.png" alt="mobile" height=300/>
 <img src="https://i.imgur.com/OIJto0z.png" alt="mobile" height=300/>
-<img src="https://i.imgur.com/zvJT2ZP.png" alt="mobile" height=300/> 
-<img src="https://i.imgur.com/cjeerlq.png" alt="mobile" height=300/>
+<img src="https://i.imgur.com/DT5yxxo.png" alt="mobile" height=300/>
+
+- `Desktop`
+
+<img src="https://i.imgur.com/zvJT2ZP.png" alt="mobile" width=500 /> 
+<img src="https://i.imgur.com/N8RkZQH.png" alt="mobile" width=500/> 
+<img src="https://i.imgur.com/yDrXTtV.png" alt="mobile" width=500/> 
+
 
 <p align="center">:construction: Projeto terminado em 31/07/2022 :construction:</p> 
