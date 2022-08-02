@@ -38,11 +38,11 @@
 
 #### Week 03 e 04
 - ``Criação de uma API``
-- ``<a href="https://github.com/Moscarde/restapiadopet">Link repositório da API</a>``
 - ``Interação com a API para obter a lista de pets``
 - ``Interação com a API para obter enviar login e senha e logar caso estejam corretos``
 - ``Interação com a API para obter dados de usuário caso esteja logado``
 
+- <a href="https://github.com/Moscarde/restapiadopet">Link repositório da API</a>
 
 
 ## :hammer: Previews do projeto
