@@ -4,7 +4,6 @@ export function validaLink(evento) {
     const tipo = evento.dataset.link
     const paginaAtual = document.querySelector(".principal").dataset.page
     parametros.delete('petID')
-    console.log(tipo);
     if (tiposDeLinks[tipo]) {
         tiposDeLinks[tipo](paginaAtual)
     }
