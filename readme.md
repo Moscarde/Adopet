@@ -10,8 +10,8 @@
 
 `` Week 01 - ✔️``
 `` Week 02 - ✔️``
-`` Week 03 - ...``
-`` Week 04 - ...``
+`` Week 03 - ✔️``
+`` Week 04 - ✔️``
 
 ## :bookmark_tabs: Descrição e historia do projeto!
 
@@ -37,7 +37,13 @@
 - ``Uso de Media Queries para construir layouts responsivos``
 
 #### Week 03 e 04
-- ``...``
+- ``Criação de uma API``
+- ``<a href="https://github.com/Moscarde/restapiadopet">Link repositório da API</a>``
+- ``Interação com a API para obter a lista de pets``
+- ``Interação com a API para obter enviar login e senha e logar caso estejam corretos``
+- ``Interação com a API para obter dados de usuário caso esteja logado``
+
+
 
 ## :hammer: Previews do projeto
 
@@ -48,4 +54,4 @@
 <img src="https://i.imgur.com/zvJT2ZP.png" alt="mobile" height=300/> 
 <img src="https://i.imgur.com/cjeerlq.png" alt="mobile" height=300/>
 
-<p align="center">:construction: Projeto em construção :construction:</p> 
+<p align="center">:construction: Projeto terminado em 31/07/2022 :construction:</p> 
