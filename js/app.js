@@ -3,7 +3,7 @@ import { showPerfil, btnsPerfil } from './perfil.js'
 import { validaLink } from './links.js'
 import { login } from './login.js'
 import { showCards } from './home.js'
-import { showPetName } from './mensagem.js'
+import { showPetName, btnEnviarMensagem } from './mensagem.js'
 import { cadastro } from './cadastro.js'
 
 import { host } from './host.mjs'
@@ -38,7 +38,6 @@ if (paginaAtual == "home") {
     showCards()
 }
 
-//inputs cadastro
 if (paginaAtual == "cadastro") {
     inputs.forEach(input => {
         input.addEventListener('blur', (evento) => {
@@ -57,6 +56,7 @@ if (paginaAtual == "perfil") {
 
 if (paginaAtual == "mensagem") {
     showPetName()
+    form.addEventListener('submit', evento => btnEnviarMensagem(evento))
 }
 if (paginaAtual == "cadastro") {
     cadastro()

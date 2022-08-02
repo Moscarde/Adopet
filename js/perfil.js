@@ -24,7 +24,6 @@ export function showPerfil() {
         .catch(function (error) {
             console.log(error);
         });
-    // logado(userID)
 }
 
 

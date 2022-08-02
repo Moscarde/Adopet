@@ -2,10 +2,7 @@ import { host } from './host.mjs'
 import { parametros } from './pegaParametros.mjs'
 
 export function showPetName() {
-    console.log(parametros.has('petID'))
-    console.log(parametros.has('userID'))
     if (parametros.has('petID')) {
-        console.log('tem');
         preenchePet(parametros.get('petID'))
     }
     if (parametros.get('login') == 'true') {
@@ -15,7 +12,6 @@ export function showPetName() {
 }
 
 function preenchePet(petID) {
-    console.log('tentando preencher pet')
     const inputNomeAnimal = document.getElementById('mensagem-form__nome-animal')
     const url = `${host}/pets/`
 
@@ -57,7 +53,9 @@ function preencheUsuario(userID) {
         .catch(function (error) {
             console.log(error);
         });
+}
 
-
-
+export function btnEnviarMensagem(evento) {
+    alert('Mensagem enviada com sucesso!')
+    //ou não né '-'
 }
