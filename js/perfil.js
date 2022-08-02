@@ -97,6 +97,7 @@ export function btnsPerfil() {
         fetch(url, options)
             .then(function () {
                 alert('Alterações Salvas. Recarregando!')
+                document.location.reload(true)
             })
             .catch(function (error) {
                 console.log(error);
